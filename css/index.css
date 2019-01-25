@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Gamja Flower', cursive;
+  }
+
+header {
+    height: 25px;
+    background: #e6f7ff;
+}
+h1 {
+    padding-top: 10px;
+    font-size: 17px;
+    color: #000;
+}
+
+body {
+    background: url("../bg4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -2;
+    background-size: 100%;
+    height: 100%;
+   color: #e6f7ff;
+   font-size: 16px;
+}
+.btn-position {
+    text-align: center;
+}
+.images img {
+    max-width: 100%;
+}
+.btn-position .a {
+    background: transparent;
+    border: 2px solid #e6f7ff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/* body::before {
+    background: url("../bg3.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.7;
+    background-attachment: fixed;
+    } */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* img {
+    max-width: 100%;
+} */
+    #menu {
+     margin: 0 auto;
+     text-align: center;
+    }
+
+    #menu ul li {
+         margin-top: 5px;
+        border: 2px solid #e6f7ff;
+        margin-left: 15px;
+        margin-right: 15px;
+        list-style-type: none;
+    }
+
+    #menu ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #000;
+        line-height: 3;
+    }
+
+
+/* Description */
+
+#countries {
+
+}
+
+.description {
+    max-height: 150px;
+    max-width: 90%;
+    overflow: auto;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.name img{
+   
+    max-width: 200px;
+}
+.country {
+    font-size: 24px;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
